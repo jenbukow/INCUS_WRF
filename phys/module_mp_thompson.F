@@ -95,6 +95,8 @@
 !.. naCCN0 = 2500.0E6 for land; 500.0E6 for ocean [#/kg]
 !.. units for naIN0 and naCCN0 have been changed here to [#/kg] to match RAMS
 !.. will multiply by air density later in init_aerosol routine to convert back to [#/m^3]
+!.. 
+!.. remember to recompile after changing these values!! 
 
       REAL, PARAMETER, PRIVATE:: naIN0 = 10.0E6 !10 for land; 1 for ocean [#/kg] !! CHANGE ME !!
       REAL, PARAMETER, PRIVATE:: naIN1 = 0.5E6
